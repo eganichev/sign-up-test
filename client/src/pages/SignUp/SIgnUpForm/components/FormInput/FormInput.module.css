@@ -1,0 +1,26 @@
+.input_wrapper {
+  @apply flex
+  items-center
+  pl-6
+  bg-white 
+  rounded-full;
+}
+
+.icon_wrapper {
+  @apply inline-block
+  pr-3
+  py-2
+  border-r
+  border-gray-200;
+}
+
+.input {
+  @apply w-full
+  pl-4
+  pr-6
+  py-4
+  font-bold
+  placeholder-gray-900
+  rounded-r-full
+  focus:outline-none;
+}

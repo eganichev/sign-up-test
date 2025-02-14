@@ -1,0 +1,27 @@
+.page_section {
+  @apply relative
+  min-h-screen
+  overflow-auto
+  bg-[url('../../assets/img/heroSlider/1.jpg')]
+  bg-center
+  bg-fixed
+  bg-no-repeat;
+}
+
+.page_section::before {
+  content: '';
+  @apply absolute
+  inset-0
+  bg-black/70
+  min-h-full;
+}
+
+.form_container {
+  @apply min-h-screen
+  container
+  mx-auto
+  flex
+  items-center
+  justify-center
+  py-16;
+}

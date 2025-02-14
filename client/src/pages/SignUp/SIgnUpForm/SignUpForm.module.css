@@ -1,0 +1,47 @@
+.form_wrapper {
+  @apply flex
+  flex-col
+  gap-5;
+}
+
+.form {
+  @apply relative
+  py-10
+  px-6
+  bg-white/10
+  backdrop-blur-lg
+  rounded-2xl
+  shadow-xl
+  border
+  border-white/30
+  max-w-lg
+  w-full;
+}
+
+.title {
+  @apply mb-8
+  text-2xl
+  text-white
+  font-bold;
+}
+
+.submit_button {
+  @apply py-4
+  mt-8
+  w-full
+  bg-blue-500
+  hover:bg-blue-600
+  text-white
+  font-bold
+  rounded-full
+  transition
+  duration-200
+  disabled:opacity-50
+  disabled:hover:bg-blue-500
+  disabled:cursor-not-allowed
+  !important;
+}
+
+.icon {
+  @apply w-5 h-5;
+}
